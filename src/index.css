@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: black;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 75%;
+  margin: 0 2%;
+  margin-top: 5%;
+  letter-spacing: -0.7rem;
+
+}
+
+h1 span {
+  color:red;
+}
+#random {
+  padding-bottom: 4%;
+  margin-top: 4%;
+}
+#quote {
+  background-color: #fff;
+  padding: 4%;
+ 
+}
+.quote {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.author {
+  font-size: 20px;
+  font-style: italic;
+  margin: 3%
+}
+#btn {
+  font-size: 25px;
+  font-weight: 600;
+  outline: none;
+  background-color: black;
+  border: 2px solid;
+  color: white;
+  text-align: center;
+  margin:auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+    #random{
+        margin: 4%;
+    }
+}
