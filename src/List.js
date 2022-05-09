@@ -39,8 +39,8 @@ const List = () => {
               </button>
             </div>
           </div>
+          {/* <footer> *build by <a> Ana Url </a> and hosted on <a> Github</a></footer> */}
         </div>
-       
       </div>
     </>
   );
