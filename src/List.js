@@ -5,7 +5,7 @@ import "./index.css"
 const List = () => {
   const [state, setstate] = useState(0);
   const { quote, author } = Data[state];
-  const [hex, setHex] = useState("black");
+  //const [hex, setHex] = useState("black");
 
   const NextQuote = () => {
     setstate(Math.floor(Math.random() * Data.length));
